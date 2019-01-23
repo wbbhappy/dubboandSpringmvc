@@ -28,6 +28,5 @@ public class RedisConfig {
     public CacheManager cacheManager(StringRedisTemplate stringRedisTemplate){
         return new RedisCacheManager(stringRedisTemplate);
     }
-
 }
 
